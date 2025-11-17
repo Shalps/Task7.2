@@ -12,47 +12,6 @@ public class Main {
     public static void main(String[] args) {
         printMatrix(matrixRandom(colors));
         printMatrix(reverseMatrix( 270));
-//        System.out.println("Исходная матрица:");
-//        matrix(colors);
-//        System.out.println("          ");
-//        reverseMatrix(90);
-//        System.out.println("    ");
-//        reverseMatrix(180);
-//        System.out.println("      ");
-//        reverseMatrix(270);
-//        while (true) {
-//            System.out.println("""
-//
-//                    Выберете угол поворота исходной матрицы:
-//                    1. 90 градусов.
-//                    2. 180 градусов.
-//                    3. 270 градусов.
-//                    Для выходы введите 'end'
-//
-//                    """);
-//            Scanner scanner = new Scanner(System.in);
-//            String s = scanner.nextLine();
-//
-//            if (s.equalsIgnoreCase("end")){
-//                System.out.println("Вы вышли из матрицы");
-//                break;
-//            }
-//
-//            switch (Integer.parseInt(s)) {
-//                case 1 -> {
-//                    System.out.println("90 градусов");
-//                    matrix90();
-//                }
-//                case 2 -> {
-//                    System.out.println("180 градусов");
-//                    matrix180();
-//                }
-//                case 3 -> {
-//                    System.out.println("270 градусов");
-//                    matrix270();
-//                }
-//            }
-//        }
 
     }
 
